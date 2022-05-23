@@ -342,8 +342,8 @@ const TextInputFlat = ({
           editable: !disabled && editable,
           selectionColor:
             typeof selectionColor === 'undefined'
-              ? activeColor
-              : selectionColor,
+              ? '#979797'
+              : '#979797',
           onFocus,
           onBlur,
           underlineColorAndroid: 'transparent',
